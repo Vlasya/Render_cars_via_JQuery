@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 80%;
+	padding: 5px;
+	
+}
+.logo{
+	align-self: flex-end;
+	margin: 10px;
+}
+.logo>img{
+	width: 10%;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title-car{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title{
+	margin: 5px;
+	font-style: 38px;
+}
+.color-block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.changeColor{
+	display: flex;
+}
+.changeColor{
+	margin-top: 10px;
+	
+}
+.color{
+	height: 50px;
+	width: 30px;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.car{
+	width: 100%;
+}
+.carImage{
+	height: 400px;
+	width: 100%;
+}
+#solid-black{
+	background-color:#2E2E2E
+}
+#midnight-silver{
+	background-color:#43424F
+}
+#obsidian-black{
+	background-color:#000000;
+}
+#deep-blue{
+	background-color:#212252;
+}
+#silver{
+	background-color:#A8A1A2;
+}
+#white{
+	background-color:#ECEBEC;
+}
+#red{
+	background-color:#c31130;
+}
+#orange{
+	background-color:#F68B28;
+}
+#yellow{
+	background-color:#FBB842;
+}
+#glacier-blue{
+	background-color:#BBCBD0;
+}
+#electric-blue{
+	background-color:#0F93DA;
+}
+#green-lotus{
+	background-color: #3d7866;
+   border-bottom: 3px solid #f8a00d;
+}
